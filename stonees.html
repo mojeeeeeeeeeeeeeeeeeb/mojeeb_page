@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليلك لعالم الأحجار الكريمة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        nav {
+            background-color: #222;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f0c040;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .dropdown-toggle::after {
+            content: "▼";
+            font-size: 0.6em;
+            margin-right: 5px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 180px;
+            z-index: 1;
+            text-align: right;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #444;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        header {
+            background-image: url("a1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #f0c040;
+            border: none;
+            color: #222;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #d4a82a;
+        }
+
+        section {
+            padding: 50px;
+            background-color: #fff;
+        }
+
+        .stone-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto 0;
+        }
+
+        .stone-gallery a {
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .stone-gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .stone-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .stone-gallery h3 {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .stone-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stone-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#asas">الرئيسية</a>
+    <div class="dropdown">
+        <a href="#stones" class="dropdown-toggle">أنواع الأحجار</a>
+        <div class="dropdown-content">
+            <a href="d.d.html">حجر القمر</a>
+            <a href="yaqot.html">الياقوت</a>
+            <a href="zomrd.html">الزمرد</a>
+            <a href="hh.html">الألماس</a>
+            <a href="opal.html">الأوبال</a>
+            <a href="topaz.html">التوباز</a>
+        </div>
+    </div>
+    <a href="#">الفوائد</a>
+    <a href="#">المعرض</a>
+    <a href="#">تواصل معنا</a>
+</nav>
+
+<header>
+    <h1>دليلك لعالم الأحجار الكريمة</h1>
+    <p>استكشف جمال وفخامة الأحجار الطبيعية وأسرارها العجيبة</p>
+    <button class="btn" onclick="window.scrollTo({ top: document.querySelector('#stones').offsetTop - 50, behavior: 'smooth' });">ابدأ رحلتك</button>
+</header>
+
+<section id="stones">
+    <h2>الأحجار الكريمة</h2>
+    <p>ما هي الأحجار الكريمة؟ ...</p>
+	<b>الأحجار الكريمة
+
+ما هي الأحجار الكريمة؟
+
+الأحجار الكريمة هي معادن نادرة تشكّلت في باطن الأرض على مدى ملايين السنين، نتيجة لضغط وحرارة شديدين. وتتميز ببريقها، وصلابتها، وشفافيتها، مما جعلها محط اهتمام الإنسان منذ القدم، سواء للزينة أو للاستخدامات الروحية والطبية وحتى في الصناعة.
+
+كيف تتكوّن؟
+
+تتكون الأحجار الكريمة عندما تتفاعل العناصر الطبيعية مثل الكربون، الألمنيوم، السيليكا، والبريليوم، داخل طبقات الأرض العميقة تحت تأثير الضغط والحرارة، مما يؤدي إلى تكوين بلورات صلبة ونقية. أحياناً تتدخل العوامل البيئية مثل البراكين والمياه المعدنية في تغيير شكلها أو لونها.
+
+ما الذي يجعل الحجر كريمًا؟
+ • الندرة: كلما كان الحجر نادرًا، زادت قيمته.
+ • الشفافية والبريق: تعكس الضوء بشكل مميز.
+ • الصلابة: تقاوم الخدوش والكسر.
+ • الجمال: ألوانها جذابة وملفتة للنظر.
+ • القصة والأساطير: بعض الأحجار تحمل رمزية قوية في الثقافات القديمة.
+ </b>
+
+    
+    </map>
+    <p>صورة لبعض الأحجار الكريمة.</p>
+
+    <div class="stone-gallery">
+        <a href="d.d.html">
+            <img src="d2.jpg" title="حجر القمر">
+            <h3>حجر القمر</h3>
+        </a>
+
+        <a href="zomrd.html">
+            <img src="z2.jpg" alt="الزمرد">
+            <h3>الزمرد</h3>
+        </a>
+
+        <a href="yaqot.html">
+            <img src="y3.jpg" alt="الياقوت">
+            <h3>الياقوت</h3>
+        </a>
+
+        <a href="a.a.html">
+            <img src="r1.jpg" alt="الماسة" title="الماسة">
+            <h3>الألماس</h3>
+        </a>
+
+        <a href="opal.html">
+            <img src="o1.jpg" alt="الأوبال">
+            <h3>الأوبال</h3>
+        </a>
+
+        <a href="topaz.html">
+            <img src="t1.jpg" alt="التوباز">
+            <h3>التوباز</h3>
+        </a>
+    </div>
+	
+</section>
+
+<footer>
+    <p>&copy; 2025 جميع الحقوق محفوظة | دليلك لعالم الأحجار الكريمة</p>
+</footer>
+
+</body>
+</html>
+
